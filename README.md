@@ -15,51 +15,53 @@
 
 ## About
 
-
 Welcome to this friendly introduction to machine learning with ml5.js. We're happy you're here.
 
 ## Code of Conduct
 
-ml5.js is about machine learning and people.A major part of the ml5.js project is about creating broader engagement with machine learning and its effects on you, me, and the people and environment. As a user of ml5.js you are agreeing to abide by the ml5.js [code of conduct](https://github.com/ml5js/ml5-library/blob/development/CODE_OF_CONDUCT.md). It's easy and fun to be nice and respectful to those around you. Let's have a wonderful workshop together. If you're looking for more details on what constitutes being "not nice" please see [Mozilla's Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) which are applicable to the space that ml5.js wants to create. 
+ml5.js is about machine learning and people. A major part of the ml5.js project is about creating broader engagement with machine learning and its effects on you, me, and the people and environment. As a user of ml5.js you are agreeing to abide by the ml5.js [code of conduct](https://github.com/ml5js/ml5-library/blob/development/CODE_OF_CONDUCT.md). It's easy and fun to be nice and respectful to those around you. Let's have a wonderful workshop together. If you're looking for more details on what constitutes being "not nice" please see [Mozilla's Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) which are applicable to the space that ml5.js wants to create. 
 
 If you have any questions or need to report any issues please contact: info@ml5js.org
 
 
 ## Overview:
-- [Agenda]()
-- [Key Questions and Takeaways]()
-- [Resources]()
-- [Terms]()
-- [References]()
-- [FAQ]()
-
-
+- [Agenda](#agenda)
+- [Key Questions and Takeaways](#key-questions)
+- [Introduction to machine learning](#introduction-to-machine-learning)
+- [Introduction to ml5.js](#introduction-to-ml5js)
+- [Coding Session](#coding-session)
 
 ## Agenda
->  ~2.5 - 3 hours
+>  ~3 hours
 
 + Hello! (5 mins)
 + Intro to Machine Learning (30 mins)
 + Intro to ml5.js (15 mins)
-+ Quick 5 Min Break
-+ Coding session (~45 mins)
-+ Build a quick-and-dirty demo (~30 mins)
-+ Present demo (10 mins)
-+ Q&A, Closing notes (5 mins)
-+ Farewell + happy camping!(5 mins)
++ 10 Min Break
++ Coding Session Part 1 (~30 mins)
++ Coding Session Part 2 (~45 mins)
++ Project Shareouts (20 mins)
++ Q&A, Closing notes (10 mins)
 
-## Key Questions and Takeaways
+## Key Questions
 
 > This is an introductory workshop to machine learning. We are focused on helping you to not only *learn through making* but also start to *reflect through making*. The following questions are here to help focus the **learning** and **reflecting**. 
 
-+ What is ml5.js?
-+ What is the relationship between ml5 and tensorflow.js?
-+ Why machine learning in the browser is possible? and why is this amazing?
-+ Why machine learning in the browser is important also for democratizing machine learning?
-+ Why we need to be able to “poke” at machine learning as creatives - to see how the implications of “state of the art” impact people differently?
++ "Machine learning is programming with `__________` rather than `____________`." - Kyle McDonald
++ Why are data central to machine learning? 
++ What do we mean by "good" data vs. "bad" data? Why does this matter for machine learning?
++ What are the implications of all the advancements and increasing availability in machine learning tools and capabilities?
++ What is the role of art and design in machine learning today?
 
 
-## The AI/ML universe
+## Slides
++ [Link to slides](https://docs.google.com/presentation/d/1C5V6YOs4hgWFeKKdpGwNjeRLuYOCwipLlSzKNOzsUnQ/edit?usp=sharing): Slide presentation with introductions, overview of terms, project highlights and more.
+
+***
+## Introduction to Machine Learning
+***
+
+### The AI/ML universe
 
 > AI/ML isn't just about advancements in technology, it is about a broader universe of things that are coming together (or diverging). These include changes (or lackthereof) in governance, cultural and social interactions with, awareness of, and attitudes, and feelings towards these new technologies, the development of new tools and communities around and against AI/ML, expansion of AI/ML education, and use of AI/ML in art and design or other domains outside "traditional AI/ML" spaces (e.g. engineering and computer science). 
 >
@@ -76,38 +78,7 @@ If you have any questions or need to report any issues please contact: info@ml5j
 + Art/Design
 
 
-
-## Coding session
-
-During this coding session, we will walk through several features of ml5.js. Specifically we will walk through the following features:
-
-* Pretrained models:
-  * Example 1: image classifier
-  * Example 2: PoseNet
-  * Example 3: FaceApi
-* Training your own model:
-  * Example 4: Neural Network - json data / classification
-  * Example 5: Neural Network - real-time / regression 
-
-## Resources
-
-<!-- TODO -->
-+ [Link to slides](https://docs.google.com/presentation/d/1C5V6YOs4hgWFeKKdpGwNjeRLuYOCwipLlSzKNOzsUnQ/edit?usp=sharing)
-  + Slide presentation with introductions, overview of terms, project highlights and more.
-+ [ml5.js **website**](https://ml5js.org/): 
-  + The main ml5.js website
-+ [ml5.js **organization**](https://github.com/ml5js): 
-  + The ml5.js github organization. Here you can see all the repositories that make up the ml5.js project.
-+ [ml5.js **library**](https://github.com/ml5js/ml5-library):
-  + The main library for ml5.js. This is where all the ✨happens!
-+ [ml5.js **examples**](https://github.com/ml5js/ml5-examples):
-  + The examples that correspond to all of the functions that are available in the ml5.js library. Emphasis is given to p5.js examples.
-+ [ml5.js examples on **p5 web editor**](https://editor.p5js.org/ml5/sketches)
-  + The examples can be found as well in the p5 web editor. You can run the sketches directly and tweak the examples as you'd like. Note, some of the examples currently do not work in the editor.  
-+ [ml5.js Medium blog page](https://medium.com/@ml5js) 
-  + ml5's Medium blog page.
-
-## Terms
+### Terms
 
 > Collected from [Yining's Week 1 of Machine Learning for the Web](https://docs.google.com/presentation/d/1s0iT382Pl1DMGKb5xhk7_V3DlW1QQHfHs4snNoS_sIU/edit#slide=id.g40fd84b173_0_613)
 
@@ -132,8 +103,8 @@ During this coding session, we will walk through several features of ml5.js. Spe
   - **Types of machine learning outputs**:
     - **Regression**: Predict continuous values (price of a stock)
     - **Classification**: Predict a class/label (cat or dog?)
-    - **Clustering**: Most similar other examples (Amazon related products recommendation)
-    - **Sequence Prediction**: Predict the next word/sentence
+    - **Clustering**: Groupings based on potential relationships in the data - Most similar other examples (Amazon related products recommendation)
+    - **Sequence Prediction**: Predict the next value/number/word/sentence in a sequence - e.g. the next chord in a melody
   - **Types of machine learning use cases**:
     - Object Recognition
     - Speech and Sound Detection
@@ -145,7 +116,7 @@ During this coding session, we will walk through several features of ml5.js. Spe
   - Deep learning - Uses multi-layered artificial neural networks to deliver state-of-the-art accuracy.
   - Can automatically learn representations/features from data such as images, video or text.
  
-## The Machine Learning Process:
+### The Machine Learning Process:
 
 > The process of machine learning is messy. Like most data related projects, 80% of your time or more will be spent cleaning and preparing data for use. The rest of the time will be the actual "making" of your project. The machine learning process might be broadly (over)simplified into a handful of steps which includes: Data collection, data preparation, Training a machine learning model, and product/service integration.
 
@@ -158,13 +129,85 @@ During this coding session, we will walk through several features of ml5.js. Spe
 * **Product/service integration...and awesome art projects**
   * E.g. the artist opensources this new pre-trained dog/cat/badger model. This comes just in time since the ASPCA in NYC has been in great need of a method to differentiate between the animals in their shelters. The artist is hired to create a web application that uses this model to label their shelter animals “cat”, or “dog” or “badger”. 
 
-## ml5 in 3 
+***
+## Introduction to ml5.js
+***
+
+### ml5 Resources
+
+<!-- TODO -->
++ [ml5.js **website**](https://ml5js.org/): 
+  + The main ml5.js website
++ [ml5 **documentation**](https://learn.ml5js.org/docs/#/)
+  * the documentation page for ml5
++ [ml5.js **organization**](https://github.com/ml5js): 
+  + The ml5.js github organization. Here you can see all the repositories that make up the ml5.js project.
++ [ml5.js **library**](https://github.com/ml5js/ml5-library):
+  + The main library for ml5.js. This is where all the ✨happens!
++ [ml5.js **examples**](https://github.com/ml5js/ml5-examples):
+  + The examples that correspond to all of the functions that are available in the ml5.js library. Emphasis is given to p5.js examples.
+  + [Index of all the ml5 examples](https://ml5js.github.io/ml5-examples/public/)
++ [ml5.js examples on **p5 web editor**](https://editor.p5js.org/ml5/sketches)
+  + The examples can be found as well in the p5 web editor. You can run the sketches directly and tweak the examples as you'd like. Note, some of the examples currently do not work in the editor.  
++ [ml5.js Medium blog page](https://medium.com/@ml5js) 
+  + ml5's Medium blog page.
+
+
+### ml5 in 3 steps
 
 ![ml5 in 3 steps](assets/ml5-in-3-steps.png)
 
+***
+## Coding Session
+***
+
+### Coding Session Part 1: Code-a-long Session
+
+During this code-a-long session, we will walk through several features of ml5.js. Specifically we will walk through the following features: We will start with a blank [ml5 boilerplate on the p5 web editor](https://editor.p5js.org/joeyklee/sketches/o93UflRahJ) for these examples.
+
+* Pretrained models:
+  * Example: image classifier -- classifying an image
+    * [demo](https://editor.p5js.org/ml5/sketches/ImageClassification_Video)
+  * Example: PoseNet -- detecting and estimating features of a human pose
+    * [demo](https://editor.p5js.org/ml5/sketches/PoseNet_part_selection)
+  * Example: FaceApi -- detecting and estimating features of a human face
+    * [demo](https://editor.p5js.org/joeyklee/sketches/wPhdku-Ji)
+  * Example: Sentiment -- estimating the sentiment (0: negative, 1: positive) of text content
+    * [demo](https://editor.p5js.org/ml5/sketches/Sentiment_Interactive)
+* Training your own model:
+  * Example: Neural Network - using existing data to train a classifier from a JSON file
+    * [demo](https://editor.p5js.org/ml5/sketches/NeuralNetwork_color_classifier)
+  * Example: Neural Network - using existing data to train a regression from a CSV file
+    * [demo](https://editor.p5js.org/ml5/sketches/NeuralNetwork_co2net)
+  * Example: Neural Network - training & interacting with a simple classifier with data produced in real-time
+    * [demo](https://editor.p5js.org/ml5/sketches/NeuralNetwork_xy_classifier)
+
+### Coding Session Part 2: Build an interactive ML application
+
+In this short 45 min session, select a pre-trained model (e.g. PoseNet) or build your own custom neural network to make a *simple* interactive web application you can share with your classmates. Team up in groups of 2 or more. 
+
+→ Use this [ml5 boilerplate on the p5 web editor](https://editor.p5js.org/joeyklee/sketches/o93UflRahJ) to get started. OR feel free use your favorite text editor and development environment.
+
+* **ml5 documentation**:
+  * [ml5 documentation](https://learn.ml5js.org/docs/#/)
+* **ml5 examples**
+  * [ml5 examples in the p5 web editor](https://editor.p5js.org/ml5/sketches)
+  * [Github Repository with code](https://github.com/ml5js/ml5-examples)
+  * [Index of all the ml5 examples](https://ml5js.github.io/ml5-examples/public/)
+**Some ideas to spark your creativity:**
+  * [ml5 community page](https://ml5js.org/community)
+  * [Unicorn racing game](https://editor.p5js.org/yining/sketches/TSDkyI-Sy)
 
 
+
+***
+***
+***
+
+***
 ## References
+***
+
 
 ### Online Learning Materials, Courses, and Workshops
 + [Yining Shi](http://1023.io/)'s ["Machine learning for the web" course](https://github.com/yining1023/machine-learning-for-the-web) at NYU's ITP.
@@ -176,46 +219,27 @@ During this coding session, we will walk through several features of ml5.js. Spe
 + [Udemy - Machine learning with Javascript](https://www.udemy.com/machine-learning-with-javascript/)
 + [Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291)
 + [3 Blue 1 Brown - Neural Networks](https://www.3blue1brown.com/neural-networks)
-* https://www.nytimes.com/2019/07/13/technology/databases-faces-facial-recognition-technology.html
-* https://andreasrefsgaard.dk/project/eye-conductor/ 
-* https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/
-* https://towardsdatascience.com/deep-learning-and-carbon-emissions-79723d5bc86e
-* https://www.nytimes.com/2019/04/14/technology/china-surveillance-artificial-intelligence-racial-profiling.html?module=inline
-* https://graphics.wsj.com/blue-feed-red-feed/#/immigration
-* https://www.technologyreview.com/s/612960/an-ai-tool-auto-generates-fake-news-bogus-tweets-and-plenty-of-gibberish/
-* https://github.com/yining1023/machine-learning-for-the-web
-* https://www.chalkbeat.org/posts/ny/2019/02/04/computer-science-can-change-how-students-who-struggle-in-math-see-themselves-ive-watched-it-happen/
-* https://www.theguardian.com/technology/2019/sep/17/imagenet-roulette-asian-racist-slur-selfie
-* https://www.excavating.ai/ 
-* http://image-net.org/update-sep-17-2019
-* https://www.wired.com/story/san-francisco-bans-use-facial-recognition-tech/
 
+### Presentation References (see slides)
+* [Facial Recognition Tech Is Growing Stronger, Thanks to Your Face, New York Times](https://www.nytimes.com/2019/07/13/technology/databases-faces-facial-recognition-technology.html)
+* [Eye Conductor, Andreas Refsgaard](https://andreasrefsgaard.dk/project/eye-conductor/ )
+* [Training a single AI model can emit as much carbon as five cars in their lifetime, MIT Tech Review](https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/)
+* [Deep Learning and Carbon Emissions, Lukas Biewald](https://towardsdatascience.com/deep-learning-and-carbon-emissions-79723d5bc86e)
+* [One Month, 500,000 Face Scans: How China Is Using A.I. to Profile a Minority, New York Times](https://www.nytimes.com/2019/04/14/technology/china-surveillance-artificial-intelligence-racial-profiling.html?module=inline)
+* [Red Feed, Blue Feed, Wall Street Journal](https://graphics.wsj.com/blue-feed-red-feed/#/immigration)
+* [OpenAI's GP-T2 text generation algorithm](https://www.technologyreview.com/s/612960/an-ai-tool-auto-generates-fake-news-bogus-tweets-and-plenty-of-gibberish/)
+* [Yining Shi's Machine Learning for the Web course at NYU's ITP](https://github.com/yining1023/machine-learning-for-the-web)
+* [Courtney Morgan, Processing Fellow](https://www.chalkbeat.org/posts/ny/2019/02/04/computer-science-can-change-how-students-who-struggle-in-math-see-themselves-ive-watched-it-happen/)
+* [re:ImageNet Roulette, Gaurdian](https://www.theguardian.com/technology/2019/sep/17/imagenet-roulette-asian-racist-slur-selfie)
+* [Excavating AI, Crawford & Paglen](https://www.excavating.ai/)
+* [ImageNet Roulette, Crawford & Paglen](http://image-net.org/update-sep-17-2019)
+* [San Francisco bans the use of facial recognition tech, WIRED](https://www.wired.com/story/san-francisco-bans-use-facial-recognition-tech/)
++ [AI Winter](https://en.wikipedia.org/wiki/AI_winter)
++ [Book of Shaders](https://thebookofshaders.com/) - referred to for explaining CPU vs. GPU
++ [Red Burns, Founder of ITP](https://en.wikipedia.org/wiki/Red_Burns)
++ [P5.js](https://p5js.org/)
 
-## Additional References
-
-### Unicorn Racing Game:
-
-> Live coding session for Unicorn Racing Game to showcase how you can use ml5 to integrate machine learning to add new types of interactions to your interactives!
-
-- See [live Demo](https://editor.p5js.org/yining/sketches/TSDkyI-Sy)!
-
-### Choose your own adventure
-
-> Team up and come up with a machine learning application using some of these suggestions below!
-
-- [Image Classifier With Webcam](https://github.com/ml5js/ml5-examples/tree/release/p5js/ImageClassification)
-- [PoseNet Code Examples](https://github.com/ml5js/ml5-examples/tree/release/p5js/PoseNet)
-- [BodyPix Code Examples](https://github.com/ml5js/ml5-examples/tree/release/p5js/BodyPix)
-- [Sounce Classifier Code Examples](https://github.com/ml5js/ml5-examples/tree/release/p5js/SoundClassification/SoundClassification_speechcommand)
-
-... Or try adapting code from any of the other ml5 examples:
-
-- [link to code](https://github.com/ml5js/ml5-examples/tree/release/p5js)
-- [examples index](https://github.com/ml5js/ml5-examples#examples-index)
-
-
-
-### Project references
+### Project References
 + Various curated ML projects  
   + [ML projects and inspiration](https://github.com/yining1023/machine-learning-for-the-web/wiki/References---Inspiration---Links)
   + [ml5.js community section](https://ml5js.org/community)
@@ -223,7 +247,9 @@ During this coding session, we will walk through several features of ml5.js. Spe
 + [Experiments with Google](https://experiments.withgoogle.com/)
 + [Food Chain Game](https://wp.nyu.edu/lillianritchie/2019/05/13/nature-of-code-final-food-chain-game/) by [Lillian Ritchie](https://wp.nyu.edu/lillianritchie/)
 
-### Tools
+***
+## Tools
+***
 
 #### Friendlier ML tools
 + [ml5.js](https://ml5js.org/)
@@ -240,21 +266,10 @@ During this coding session, we will walk through several features of ml5.js. Spe
 + [Spell.run](https://spell.run/) - "The most flexible and powerful end-to-end platform for ML and deep learning engineering." 
 + [Paperspace](https://www.paperspace.com/) - "The first cloud built for the future. Powering next-generation applications and cloud ML/AI pipelines."
 
-### Other
-+ [AI Winter](https://en.wikipedia.org/wiki/AI_winter)
-+ [Book of Shaders](https://thebookofshaders.com/) - referred to for explaining CPU vs. GPU
-+ [Red Burns, Founder of ITP](https://en.wikipedia.org/wiki/Red_Burns)
-+ [P5.js](https://p5js.org/)
+***
+***
+***
+
+## Additional Acknowledgements
+
 + [Openmoji](https://openmoji.org/) - "Open-source emojis for designers, developers and everyone else!"
-
-
-<!-- ## FAQ
-
-> What is the difference between machine learning and AI?
-
-+ ...
-
-
-> what is the difference between a model, a pre-trained model, and an algorithm? What is the correct way to refer to those things?
-
-+ ... -->
