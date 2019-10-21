@@ -251,6 +251,10 @@ In this short 45 min session, select a pre-trained model (e.g. PoseNet) or build
 + [Dan Shiffman's EyeO Talk 2019](https://github.com/CodingTrain/Eyeo-Festival-2019)
 + [Experiments with Google](https://experiments.withgoogle.com/)
 + [Food Chain Game](https://wp.nyu.edu/lillianritchie/2019/05/13/nature-of-code-final-food-chain-game/) by [Lillian Ritchie](https://wp.nyu.edu/lillianritchie/)
++ [Forensic Architecture - triple chaser](https://forensic-architecture.org/investigation/triple-chaser) // Note: great example of training images and taking care of potential background effects.
+
+### Physical computing examples with ml5
+* [Physical interaction: Arduino, ml5.js, p5.js, and Serial communicaiton](https://github.com/ml5js/Intro-ML-Arts-IMA/tree/source/03_ml_models#session-b-physical-interaction)
 
 ***
 ## Tools
