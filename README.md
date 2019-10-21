@@ -65,7 +65,12 @@ If you have any questions or need to report any issues please contact: info@ml5j
 
 > AI/ML isn't just about advancements in technology, it is about a broader universe of things that are coming together (or diverging). These include changes (or lackthereof) in governance, cultural and social interactions with, awareness of, and attitudes, and feelings towards these new technologies, the development of new tools and communities around and against AI/ML, expansion of AI/ML education, and use of AI/ML in art and design or other domains outside "traditional AI/ML" spaces (e.g. engineering and computer science). 
 >
-> We increasingly interact with machine learning every day, whether it is through the way we access content through media providers such as Netflix, Twitter, and Instagram, or how we get from A to B on transit and vehicles. These increasingly algorithmically and data driven interactions do not come from the ether, but rather are the result of a complex and chaotic assemblage of social and technical forces.
+> We increasingly interact with machine learning systems every day.
+>
+> Our lives -- e.g. how we access content, who gets access to services, and how we get from A to B -- are being shaped by the data we produce and the people using our data. 
+>
+> These increasingly algorithmically and data driven interactions reflect an assemblage of social and technical forces that almost always benefit some and harm others. 
+
 >
 > It is worth thinking about how the following factors affect or are affected by changes in AI/ML.
 
@@ -118,7 +123,7 @@ If you have any questions or need to report any issues please contact: info@ml5j
  
 ### The Machine Learning Process:
 
-> The process of machine learning is messy. Like most data related projects, 80% of your time or more will be spent cleaning and preparing data for use. The rest of the time will be the actual "making" of your project. The machine learning process might be broadly (over)simplified into a handful of steps which includes: Data collection, data preparation, Training a machine learning model, and product/service integration.
+> The process of machine learning is messy. Like most data related projects, 80% of your time or more will be spent cleaning and preparing data for use. The rest of the time will be the actual "making" of your project. The machine learning process might be broadly (over)simplified into a handful of steps which includes: Data collection, data preparation, Training a machine learning model, and using the ML model in context.
 
 * **Data collection**
   * E.g. an artist writes a script to automatically download all images of cats, dogs, and badgers from the internet. 
@@ -126,7 +131,7 @@ If you have any questions or need to report any issues please contact: info@ml5j
   * E.g. the artist uses a crowd tasking service to 1. confirm that the image is either a cat, dog or badger, 2. Tag the image with the animal type, 3. Crop the image of the animal to a square aspect ratio. The artist then resizes all the images to 64x64px
 * **Training a machine learning model**
   * E.g. the artist: 1. Uses a popular machine learning framework called Tensorflow in python to create a neural network. To create a neural network the artist, writes code that specifies image processing and data crunching methods that aim to pull out unique features for each animal type in the given images. The artist then 2. Iteratively refines and tests the model to achieve the highest accuracy.
-* **Product/service integration...and awesome art projects**
+* **Using the ML model in context...and awesome art projects**
   * E.g. the artist opensources this new pre-trained dog/cat/badger model. This comes just in time since the ASPCA in NYC has been in great need of a method to differentiate between the animals in their shelters. The artist is hired to create a web application that uses this model to label their shelter animals “cat”, or “dog” or “badger”. 
 
 ***
