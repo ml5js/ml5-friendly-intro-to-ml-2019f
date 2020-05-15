@@ -198,7 +198,7 @@ In this short 45 min session, select a pre-trained model (e.g. PoseNet) or build
 * **ml5 examples**
   * [ml5 examples in the p5 web editor](https://editor.p5js.org/ml5/sketches)
   * [Github Repository with code](https://github.com/ml5js/ml5-examples)
-  * [Index of all the ml5 examples](https://ml5js.github.io/ml5-examples/public/)
+  * [Index of all the ml5 examples](https://examples.ml5js.org/)
 **Some ideas to spark your creativity:**
   * [ml5 community page](https://ml5js.org/community)
   * [Unicorn racing game](https://editor.p5js.org/yining/sketches/TSDkyI-Sy)
@@ -255,6 +255,10 @@ In this short 45 min session, select a pre-trained model (e.g. PoseNet) or build
 
 ### Physical computing examples with ml5
 * [Physical interaction: Arduino, ml5.js, p5.js, and Serial communicaiton](https://github.com/ml5js/Intro-ML-Arts-IMA/tree/source/03_ml_models#session-b-physical-interaction)
+
+
+### Transfer Learning
+* [On transfer learning K-Nearest-Neighbors, Yining Shi](https://github.com/yining1023/machine-learning-for-the-web/tree/master/week2-imageClassifier)
 
 ***
 ## Tools
